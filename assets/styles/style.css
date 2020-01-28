@@ -67,3 +67,30 @@ body {
 .nav-link:hover {
   color: red;
 }
+banner {
+  height: calc(100vh - 70px);
+  margin-top: -70px;
+  display: table;
+  width: 100%;
+}
+.hero-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.hero-heading {
+  font-size: 44px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.hero-heading span {
+  color: red;
+}
+.hero-heading span:before {
+  content: "<";
+}
+.hero-heading span:after {
+  content: "/>";
+}
